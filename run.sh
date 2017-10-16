@@ -21,4 +21,3 @@ for BRANCH in `git branch -r | grep 'origin/HUM-*'`;
       echo "Looks like hotfix introduced conflicts( $FILES_IN_CONFLICT ). Please resolve manually"
     fi
   done
-
